@@ -1,6 +1,6 @@
 
 import Layout from '../components/layout'
-import Container from "../components/container";
+import Container from "../components/Container";
 import Hero from "../components/hero";
 import BenefitSectionOne from "../components/benefitSectionOne";
 import BenefitSectionTwo from "../components/benefitSectionTwo";
