@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import Container from "./container";
+import Container from "./Container";
 import BookAMeeting from "./BookAMeetingBtn";
 
 export default function Footer() {
