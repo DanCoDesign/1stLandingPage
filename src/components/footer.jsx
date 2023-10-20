@@ -63,7 +63,7 @@ export default function Footer() {
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-300">
               <Link
-                href="https://twitter.com/dancodesign"
+                href="https://twitter.com/#"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Twitter</span>
