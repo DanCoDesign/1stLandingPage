@@ -1,5 +1,5 @@
 import Container from "@/components/Container";
-import TeamCard from "@/components/TeamCard";
+import TeamCard from "@/components/aboutPage/TeamCard";
 import Link from "next/link";
 const AboutPage = () => {
     return (

@@ -1,12 +1,12 @@
 
-import Layout from '../components/layout'
+import Layout from '../layout'
 import Container from "../components/Container";
-import Hero from "../components/hero";
-import BenefitSectionOne from "../components/benefitSectionOne";
-import BenefitSectionTwo from "../components/benefitSectionTwo";
-import SuccessStory from "../components/successStory";
-import ProcessSteps from "../components/ProcessSteps";
-import CTAction from "../components/ctaction";
+import Hero from "../components/homePage/hero";
+import BenefitSectionOne from "../components/homePage/benefitSectionOne";
+import BenefitSectionTwo from "../components/homePage/benefitSectionTwo";
+import SuccessStory from "../components/homePage/successStory";
+import ProcessSteps from "../components/homePage/ProcessSteps";
+import CTAction from "../components/homePage/ctaction";
 
 
 export default function Page() {

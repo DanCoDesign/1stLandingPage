@@ -58,12 +58,12 @@ export default function SuccessStory() {
         "text": "They are the best in the business, hands down. Their commitment to quality is unmatched.",
         "img": "/successStory1.jpg"
 
-    },
+    }
     ];
 
     return (
         <div className='bg-[#E7EBFC] dark:bg-[#0B4130] py-[60px] pl-[45px] lg:py-[120px] lg:pl-[95px] w-full mb-16'>
-            <ul className=''>
+            <ul>
                 <Carousel autoPlay
                     showThumbs={false}
                     emulateTouch={true}
