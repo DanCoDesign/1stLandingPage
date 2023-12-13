@@ -3,6 +3,8 @@
 https://sliht.vercel.app/
 
 ## Description
+Multipurpose Business web design made with Next.js and Tailwind
+Design of the Figma file below. Practising my TailwindCSS skills :)
 Work Date: August 2023 
 
 ## Figma File:
