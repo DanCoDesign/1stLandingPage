@@ -4,7 +4,7 @@ import Link from "next/link";
 const AboutPage = () => {
     return (
         <>
-            <Container className="my-12">
+            <Container className="my-12 space-y-20">
                 <section className="overflow-hidden">
                     <div className="container">
                         <div className="flex flex-wrap items-center justify-between -mx-4">
@@ -42,7 +42,7 @@ const AboutPage = () => {
                                     <span className="block mb-2 text-lg font-semibold text-[#2E4FD7]">
                                         Why Choose Us
                                     </span>
-                                    <h2 className="mb-8 text-3xl font-bold text-dark sm:text-4xl">
+                                    <h2 className="mb-8 text-3xl font-bold text-dark dark:text-white sm:text-4xl">
                                         Make your customers happy by giving services.
                                     </h2>
                                     <p className="mb-8 text-base text-body-color">
@@ -68,7 +68,7 @@ const AboutPage = () => {
                                 <span className="block mb-2 text-lg font-semibold text-[#2E4FD7]">
                                     Our Team
                                 </span>
-                                <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
+                                <h2 className="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[40px]">
                                     Our Awesome Team
                                 </h2>
                                 <p className="text-base text-body-color">

@@ -9,11 +9,11 @@ const ContactPage = () => {
                     <div className="flex flex-wrap lg:justify-between ">
                         <div className="w-full px-4 lg:w-1/2 xl:w-6/12 ">
                             <div className="max-w-[570px] lg:mb-0">
-                                <h2 className="mb-6 text-[32px] font-bold capitalize text-dark sm:text-[40px] lg:text-[40px] xl:text-[64px]">
+                                <h2 className="mb-6 text-[32px] font-bold capitalize text-dark dark:text-white sm:text-[40px] lg:text-[40px] xl:text-[64px]">
                                     Contact Us
                                 </h2>
                                 <p className="text-lg tracking-wider text-[#64626A] dark:text-white mb-9 text-body-color">
-                                    If you have any questions about the subscription or are not sure which plan is right for you, contact our team and let’s schedule a call.
+                                    If you have any questions about the subscription or are not sure which plan is right for you, contact our team and let&apos;s schedule a call.
                                 </p>
                                 <div className="grid md:grid-cols-2 gap-8 lg:pt-28">
                                     <Link
@@ -35,7 +35,7 @@ const ContactPage = () => {
                                             Email us
                                         </p>
                                         <p className="">
-                                            contact@dancodesign.com
+                                            contact@nextemplate.com
                                         </p>
                                     </Link>
                                 </div>
@@ -51,9 +51,9 @@ const ContactPage = () => {
                         <div className="w-full px-4 lg:w-1/2 xl:w-5/12 lg:z-20">
                             <div className="relative p-8 rounded-lg shadow-lg sm:p-12 bg-white dark:bg-[#0B4130]">
                                 <h2 className="text-2xl lg:text-3xl pb-3">
-                                    Let’s Talk 👋
+                                    Let&apos;s Talk 👋
                                 </h2>
-                                <p className="py-3 text-lg tracking-wider text-[#64626A] dark:text-white">If you have any question or issue’s to use our product. Fill the form below. We’ll help you.</p>
+                                <p className="py-3 text-lg tracking-wider text-[#64626A] dark:text-white">If you have any question or issue&apos;s to use our product. Fill the form below. We&apos;ll help you.</p>
                                 <form>
                                     <ContactInputBox
                                         type="text"

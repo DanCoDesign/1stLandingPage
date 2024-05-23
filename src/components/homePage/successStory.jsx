@@ -44,12 +44,12 @@ export default function SuccessStory() {
 
     const items = [{
         "title": "Exceptional service",
-        "text": "I’ve been a customer for years and their service is second to none. I highly recommend them!",
+        "text": "I've been a customer for years and their service is second to none. I highly recommend them!",
         "img": "/successStory1.jpg"
     },
     {
         "title": "Their product changed my life!",
-        "text": "Their innovative product has truly changed my life for the better. I can’t imagine going back!",
+        "text": "Their innovative product has truly changed my life for the better. I can't imagine going back!",
         "img": "/successStory2.jpg"
 
     },
@@ -62,7 +62,7 @@ export default function SuccessStory() {
     ];
 
     return (
-        <div className='bg-[#E7EBFC] dark:bg-[#0B4130] py-[60px] pl-[45px] lg:py-[120px] lg:pl-[95px] w-full mb-16'>
+        <div className='bg-[#E7EBFC] dark:bg-[#0B4130] py-[60px] pl-[45px] lg:py-[120px] lg:pl-[95px] w-full '>
             <ul>
                 <Carousel autoPlay
                     showThumbs={false}

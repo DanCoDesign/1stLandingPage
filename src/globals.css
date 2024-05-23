@@ -33,3 +33,16 @@ html {
 .dark .carousel .control-dots .dot {
     background: #fff;
 }
+
+.text-dark {
+    color: #333;
+}
+
+.text-body-color {
+    color: #666666;
+}
+
+.dark .text-body-color {
+
+    color: #CCC;
+}

@@ -1,28 +1,22 @@
 import SectionBenefit from "./sectionBenefit";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar } from '@fortawesome/free-solid-svg-icons'
-import { faTableCellsLarge } from '@fortawesome/free-solid-svg-icons'
-import { faLayerGroup } from '@fortawesome/free-solid-svg-icons'
 import BookAMeeting from "../BookAMeetingBtn";
 import Container from "../Container";
+import { FaStar } from "react-icons/fa";
+import { FaTableCellsLarge } from "react-icons/fa6";
+import { FaLayerGroup } from "react-icons/fa";
 
 
-const BenefitCircle = (props) => {
-    return (
-        <div className="mx-auto w-[54px] h-[54px] bg-[#E7EBFC] rounded-full flex justify-center items-center" >
-            <FontAwesomeIcon icon={props.icon} color="#2E4FD7" />
-        </div>
-    )
-};
 
 export default function BenefitSectionOne() {
     return (
         <section className="py-4 bg-[#E7EBFC] dark:bg-[#0B4130] sm:py-16 my-4 sm:my-8 ">
             <Container className="flex flex-wrap lg:justify-between ">
-                <div className="w-full px-4 lg:w-1/2 xl:w-5/12 flex flex-col space-y-12">
+                <div className="w-full md:px-4 lg:w-1/2 xl:w-5/12 flex flex-col space-y-12">
                     <div className="flex flex-row">
                         <div className="w-min px-3">
-                            <BenefitCircle icon={faStar} />
+                            <div className="mx-auto w-[54px] h-[54px] bg-[#E7EBFC] rounded-full flex justify-center items-center" >
+                                <FaStar color="blue" size={24} />
+                            </div>
                         </div>
 
                         <SectionBenefit
@@ -33,7 +27,9 @@ export default function BenefitSectionOne() {
                     </div>
                     <div className="flex flex-row">
                         <div className="w-min px-3">
-                            <BenefitCircle icon={faTableCellsLarge} />
+                            <div className="mx-auto w-[54px] h-[54px] bg-[#E7EBFC] rounded-full flex justify-center items-center" >
+                                <FaTableCellsLarge color="blue" size={24} />
+                            </div>
                         </div>
 
                         <SectionBenefit
@@ -44,7 +40,9 @@ export default function BenefitSectionOne() {
                     </div>
                     <div className="flex flex-row">
                         <div className="w-min px-3">
-                            <BenefitCircle icon={faLayerGroup} />
+                            <div className="mx-auto w-[54px] h-[54px] bg-[#E7EBFC] rounded-full flex justify-center items-center" >
+                                <FaLayerGroup color="blue" size={24} />
+                            </div>
                         </div>
 
                         <SectionBenefit

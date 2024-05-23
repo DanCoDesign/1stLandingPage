@@ -5,26 +5,22 @@ import Hero from "../components/homePage/hero";
 import BenefitSectionOne from "../components/homePage/benefitSectionOne";
 import BenefitSectionTwo from "../components/homePage/benefitSectionTwo";
 import SuccessStory from "../components/homePage/successStory";
-import ProcessSteps from "../components/homePage/ProcessSteps";
-import CTAction from "../components/homePage/ctaction";
 
+import CTAction from "../components/homePage/ctaction";
+import FAQSection from '@/components/homePage/FAQSection';
 
 export default function Page() {
   return (
     <>
-
       <Container>
         <Hero />
       </Container>
       <BenefitSectionOne />
       <Container>
         <BenefitSectionTwo />
-
         <SuccessStory />
-        <ProcessSteps />
-
+        <FAQSection />
       </Container >
-
       <CTAction />
     </>
   );

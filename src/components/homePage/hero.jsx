@@ -58,11 +58,11 @@ const HeroPhoto = () => {
 export default function Hero() {
   return (
 
-    <div className="flex flex-wrap mt-16 lg:py-40 justify-between lg:px-8 xl:px-12 ">
+    <div className="flex flex-wrap py-8 lg:py-24 justify-between lg:px-8 xl:px-12 ">
 
       <div className="w-full lg:w-5/12 flex flex-col">
-        <h1 className="capitalize mb-3 text-4xl font-bold leading-snug text-dark sm:text-[40px] lg:text-[42px] xl:text-[48px]">
-          Your Website’s Essence Captured in One Headline
+        <h1 className="capitalize mb-3 text-4xl font-bold leading-snug text-dark dark:text-white sm:text-[40px] lg:text-[42px] xl:text-[48px]">
+          Your Website&apos;s Essence Captured in One Headline
         </h1>
         <p className="mb-8 max-w-5/12 text-base text-body-color">
           The hero section description is a succinct follow-up to a compelling headline. Keep it brief, straightforward, and pointedly descriptive.
@@ -90,7 +90,7 @@ export default function Hero() {
           </Link>
         </div>
 
-        <div className="flex flex-wrap space-x-4 justify-center md:justify-around mt-auto py-8 lg:py-0">
+        <div className="flex flex-wrap space-x-6 justify-center md:justify-around mt-auto py-8 lg:py-0">
 
           <img src="/amazon.svg" alt="" />
           <img src="/verizon.svg" alt="" />

@@ -9,7 +9,7 @@ function StoryItem() {
             <div className="lg:mt-0 flex min-h-[420px]">
                 <div className="flex flex-col w-1/2">
                     <h3 className=" text-2xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">Success Story</h3>
-                    <p className="max-w-2xl py-4 text-xl leading-[4rem] text-gray-700 lg:text-4xl xl:text-4xl dark:text-gray-300">Nowadays, it isn’t uncommon to see lenders rapidly adopting a digital lending strategy to streamline the lending process</p>
+                    <p className="max-w-2xl py-4 text-xl leading-[4rem] text-gray-700 lg:text-4xl xl:text-4xl dark:text-gray-300">Nowadays, it isn&apos;t uncommon to see lenders rapidly adopting a digital lending strategy to streamline the lending process</p>
                     {/* <AmazonLogo /> */}
                     <a
                         href="#"
