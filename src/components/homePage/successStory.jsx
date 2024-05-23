@@ -62,7 +62,7 @@ export default function SuccessStory() {
     ];
 
     return (
-        <div className='bg-[#E7EBFC] dark:bg-[#0B4130] py-[60px] pl-[45px] lg:py-[120px] lg:pl-[95px] w-full '>
+        <div className='bg-[#E7EBFC] dark:bg-[#0B4130] py-[60px] pl-[45px] lg:py-[120px] lg:pl-[95px] w-full rounded-md'>
             <ul>
                 <Carousel autoPlay
                     showThumbs={false}

@@ -12,7 +12,7 @@ const CTAction = () => {
                 </div>
 
                 <hr className="h-[2px] my-12 bg-gray-400 border-0 dark:bg-gray-700"></hr>
-                <div className="flex flex-wrap space-y-4 md:space-y-0 space-x-4 justify-center md:justify-around mt-auto py-8 lg:py-0">
+                <div className="flex flex-wrap justify-center md:justify-around mt-auto py-8 lg:py-0 gap-8">
                     <img src="/microsoft.svg" alt="" />
                     <img src="/verizon.svg" alt="" />
                     <img src="/amazon.svg" alt="" />
