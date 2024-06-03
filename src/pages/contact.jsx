@@ -35,7 +35,7 @@ const ContactPage = () => {
                                             Email us
                                         </p>
                                         <p className="">
-                                            contact@nextemplate.com
+                                            contact@MadeUI.com
                                         </p>
                                     </Link>
                                 </div>
